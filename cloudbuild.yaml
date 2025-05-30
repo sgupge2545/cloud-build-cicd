@@ -24,4 +24,3 @@ steps:
       - "--execute-now"
 images:
   - gcr.io/$PROJECT_ID/$_IMAGE
-logging: CLOUD_LOGGING_ONLY
