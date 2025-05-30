@@ -52,6 +52,7 @@ const randomFailure = (rate) => {
 // Start script
 main().catch((err) => {
   console.error(err);
+  console.log(err.message);
   // [START cloudrun_jobs_exit_process]
   process.exit(1); // Retry Job Task by exiting the process
   // [END cloudrun_jobs_exit_process]
